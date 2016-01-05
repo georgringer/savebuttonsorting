@@ -16,8 +16,12 @@ namespace GeorgRinger\Savebuttonsorting\Xclass;
  */
 
 use TYPO3\CMS\Backend\Template\Components\Buttons\InputButton;
+use TYPO3\CMS\Backend\Template\Components\Buttons\SplitButton;
 
-class ImprovedSplitButton extends \TYPO3\CMS\Backend\Template\Components\Buttons\SplitButton
+/**
+ * Xclass SplitButton to add getters and setters
+ */
+class ImprovedSplitButton extends SplitButton
 {
 
     /**
