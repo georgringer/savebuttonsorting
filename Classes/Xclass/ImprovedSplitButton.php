@@ -17,7 +17,7 @@ namespace GeorgRinger\Savebuttonsorting\Xclass;
 
 use TYPO3\CMS\Backend\Template\Components\Buttons\InputButton;
 
-class SplitButton extends \TYPO3\CMS\Backend\Template\Components\Buttons\SplitButton
+class ImprovedSplitButton extends \TYPO3\CMS\Backend\Template\Components\Buttons\SplitButton
 {
 
     /**
@@ -37,7 +37,7 @@ class SplitButton extends \TYPO3\CMS\Backend\Template\Components\Buttons\SplitBu
     }
 
     /**
-     * @return InputButton
+     * @return InputButton[]
      */
     public function getOptionButtons()
     {

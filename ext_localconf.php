@@ -8,7 +8,7 @@ $boot = function () {
         = \GeorgRinger\Savebuttonsorting\Hooks\ButtonBarHook::class . '->modify';
 
     $GLOBALS['TYPO3_CONF_VARS']['SYS']['Objects'][\TYPO3\CMS\Backend\Template\Components\Buttons\SplitButton::class] = array(
-        'className' => \GeorgRinger\Savebuttonsorting\Xclass\SplitButton::class,
+        'className' => \GeorgRinger\Savebuttonsorting\Xclass\ImprovedSplitButton::class,
     );
 };
 

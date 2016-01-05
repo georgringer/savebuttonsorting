@@ -2,12 +2,11 @@
 
 ## About
 
-**Important:** This extension currently does not work
+Change the order of the save buttons
 
 ### Requirements
 
 - TYPO3 CMS 7 LTS
-- 
 
 ### License
 
@@ -21,8 +20,7 @@ use UserTsConfig like this:
 options.saveButton.default = savedoknew,saveandclosedok,savedok
 ```
 
-## Todo:
+## Todo
 
-- Finish it
 - configuration per table
 - test it
